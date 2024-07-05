@@ -5,5 +5,33 @@
   "repository": "https://github.com/mitsuyoshi-yamazaki/screeps-operating-system-tutorial",
   "author": "Mitsuyoshi Yamazaki",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/node": "^13.13.1",
+    "@types/screeps": "^3.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "@typescript-eslint/typescript-estree": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "rollup": "^2.56.2",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-screeps": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "ts-node": "^10.2.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "source-map": "~0.6.1"
+  }
 }

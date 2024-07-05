@@ -1,6 +1,6 @@
 FROM node:12
 
 WORKDIR /var/www/app
-# COPY . .
+COPY . .
 
-# RUN yarn install
+RUN yarn install
