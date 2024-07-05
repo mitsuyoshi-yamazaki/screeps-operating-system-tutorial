@@ -1,0 +1,4 @@
+{
+  "typescript.tsdk": "src/node_modules/typescript/lib",
+  "typescript.tsconfig": "src/tsconfig.json"
+}
