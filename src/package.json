@@ -1,0 +1,9 @@
+{
+  "name": "screeps_operating_system_tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mitsuyoshi-yamazaki/screeps-operating-system-tutorial",
+  "author": "Mitsuyoshi Yamazaki",
+  "license": "MIT",
+  "private": false
+}
