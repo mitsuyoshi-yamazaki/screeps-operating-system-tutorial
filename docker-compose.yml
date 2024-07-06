@@ -3,8 +3,6 @@ services:
   app:
     container_name: screeps_operating_system_tutorial
     build: ./
-    ports:
-      - "${APP_PORT}:3000"
     tty: true
     volumes:
       - ./src:/var/www/app
